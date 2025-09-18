@@ -573,7 +573,8 @@ class ClickHousePlatform extends AbstractPlatform
      */
     public function appendLockHint($fromClause, $lockMode): string
     {
-        throw Exception::notSupported(__METHOD__);
+        //throw Exception::notSupported(__METHOD__);
+        return $fromClause;
     }
 
     /**
@@ -581,7 +582,8 @@ class ClickHousePlatform extends AbstractPlatform
      */
     public function getReadLockSQL(): string
     {
-        throw Exception::notSupported(__METHOD__);
+        //throw Exception::notSupported(__METHOD__);
+        return $fromClause;
     }
 
     /**
@@ -589,7 +591,8 @@ class ClickHousePlatform extends AbstractPlatform
      */
     public function getWriteLockSQL(): string
     {
-        throw Exception::notSupported(__METHOD__);
+        //throw Exception::notSupported(__METHOD__);
+        return $fromClause;
     }
 
     /**
