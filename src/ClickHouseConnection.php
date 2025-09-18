@@ -105,7 +105,8 @@ class ClickHouseConnection implements Connection, ServerInfoAwareConnection
      */
     public function beginTransaction(): bool
     {
-        throw Exception::notSupported(__METHOD__);
+        //throw Exception::notSupported(__METHOD__);
+        return true;
     }
 
     /**
