@@ -118,7 +118,8 @@ class Connection extends \Doctrine\DBAL\Connection
      */
     public function commit(): bool
     {
-        throw Exception::notSupported(__METHOD__);
+        //throw Exception::notSupported(__METHOD__);
+        return true;
     }
 
     /**
