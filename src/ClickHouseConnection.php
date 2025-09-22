@@ -99,7 +99,7 @@ class ClickHouseConnection implements Connection
      */
     public function beginTransaction(): void
     {
-        throw NotSupported::new(__METHOD__);
+        //throw NotSupported::new(__METHOD__);
     }
 
     /**
@@ -107,7 +107,7 @@ class ClickHouseConnection implements Connection
      */
     public function commit(): void
     {
-        throw NotSupported::new(__METHOD__);
+        //throw NotSupported::new(__METHOD__);
     }
 
     /**
