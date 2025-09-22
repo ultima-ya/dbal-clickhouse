@@ -439,7 +439,8 @@ class ClickHousePlatform extends AbstractPlatform
      */
     public function appendLockHint(string $fromClause, LockMode $lockMode): string
     {
-        throw NotSupported::new(__METHOD__);
+        //throw NotSupported::new(__METHOD__);
+        return $fromClause;
     }
 
     /**
